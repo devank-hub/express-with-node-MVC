@@ -9,7 +9,7 @@ const __dirname = fileURLToPath(path.dirname(import.meta.url));
 
 const app = express();
 
-//defining setting fro express to set the templating engine
+//defining setting for express to set the templating engine
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
 
